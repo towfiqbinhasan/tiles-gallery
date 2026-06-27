@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="light">
-      <body>
+     <body suppressHydrationWarning={true}>
         <Navbar />
         <main className="min-h-screen">
           {children}

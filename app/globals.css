@@ -10,3 +10,33 @@
   display: inline-block;
   animation: marquee 20s linear infinite;
 }
+
+/* Custom Styles */
+.card {
+  transition: all 0.3s ease !important;
+}
+
+.card:hover {
+  transform: translateY(-5px) !important;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.12) !important;
+}
+
+.btn {
+  border-radius: 9999px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.5px !important;
+}
+
+/* Gradient Text */
+.gradient-text {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Glass Effect */
+.glass-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.3);
+}

@@ -1,0 +1,30 @@
+{
+  "name": "tiles-gallery",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint",
+  "json-server": "json-server --watch data/tiles.json --port 5000"
+},
+  "dependencies": {
+    "better-auth": "^1.6.22",
+    "daisyui": "^5.6.3",
+    "firebase": "^12.15.0",
+    "mongodb": "^7.4.0",
+    "mongoose": "^9.7.2",
+    "next": "16.2.9",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-hot-toast": "^2.6.0",
+    "swiper": "^14.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.9",
+    "tailwindcss": "^4"
+  }
+}
